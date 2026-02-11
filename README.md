@@ -16,4 +16,12 @@ uv add "fastapi[standard]"
 uv add "langgraph-cli[inmem]" --dev
 uv add ipykernel --dev
 uv add grandalf --dev
+uv add langchain-tavily
 
+# run the agent
+#uv run langgraph dev
+
+
+
+# instalar el proyecto con la estructura apropiada
+uv pip install -e .
